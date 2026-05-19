@@ -19,7 +19,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 25px 100px;
+  margin: 2% 10%;
   border-bottom: 1px solid #000000;
 }
 
@@ -67,7 +67,7 @@ a {
 }
 
 main {
-  margin: 50px 100px;
+  margin: 5% 10%;
 }
 .hero {
   display: flex;
@@ -77,19 +77,19 @@ main {
 }
 
 .hero h1 {
-  font-size: 80px;
+  font-size: 6vw;
   font-family: sans-serif;
   font-weight: 400;
-  margin-top: 100px;
+  margin-top: 10%;
 }
 
 .hero p {
-  font-size: 20px;
+  font-size: 4vh;
   line-height: 30px;
 }
 
 .hero .btn {
-  width: 150px;
+  width: 12vw;
   text-align: center;
   background-color: black;
   color: white;
@@ -102,7 +102,7 @@ main {
 .marque-content {
   display: flex;
   align-items: center;
-  gap: 80px;
+  gap: 8vw;
   animation: marque 10s infinite linear;
 }
 
@@ -118,7 +118,7 @@ main {
 .cards {
   display: flex;
   gap: 30px;
-  height: 250px;
+  height: 22vw;
 }
 .card {
   display: flex;
@@ -151,12 +151,12 @@ main {
   margin: 20px 0px;
 }
 .work-heading h1 {
-  font-size: 45px;
+  font-size: 4vw;
   font-weight: 400;
 }
 
 .work-heading p {
-  font-size: 15px;
+  font-size: 1.2vw;
   border: 1px solid black;
   padding: 10px 20px;
   border-radius: 30px;
@@ -180,8 +180,8 @@ main {
   padding-bottom: 30px;
 }
 .work-img-container {
-  width: 515px;
-  height: 350px;
+  width: 38vw;
+  height: 60vh;
   overflow: hidden;
 }
 .work-card img {
@@ -199,7 +199,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 1vw;
 }
 
 .img-text h2 {
@@ -209,7 +209,7 @@ main {
 .img-text p {
   margin: 0;
   border: 1px solid black;
-  padding: 10px 20px;
+  padding: 1vw 2vw;
   border-radius: 30px;
 }
 
@@ -233,21 +233,21 @@ main {
   gap: 30px;
 }
 .value-card {
-  height: 250px;
-  width: 280px;
-  padding: 40px;
+  height: 40vh;
+  width: 30vw;
+  padding: 4vw;
   display: flex;
   flex-direction: column;
-
   text-transform: uppercase;
 }
+
 .value-card h2 {
-  font-size: 20px;
+  font-size: 1.6vw;
   font-weight: 400;
 }
 .value-card p {
-  margin-top: 60px;
-  font-size: 15px;
+  margin-top: 4vw;
+  font-size: 1.1vw;
 }
 
 .values-container .value-card:first-child {
@@ -295,13 +295,14 @@ main {
 }
 
 .values-text {
-  margin: 0px 280px;
+  margin: 0px 17vw;
   display: flex;
   gap: 10px;
   flex-direction: column;
 }
 
-.team-title,.blog-heading{
+.team-title,
+.blog-heading {
   border-bottom: 1px solid #000000;
   margin-top: 35px;
 }
@@ -340,9 +341,9 @@ main {
   gap: 20px;
 }
 
-.team-img-container{
-  height: 280px;
-  width: 250px;
+.team-img-container {
+  height: 50vh;
+  width: 19vw;
   position: relative;
   overflow: hidden;
   justify-content: end;
@@ -374,8 +375,8 @@ main {
 
 .team-card-1 {
   background-color: #f1f6f5;
-  height: 320px;
-  width: 250px;
+  height: 59vh;
+  width: 19vw;
 }
 .team-text-container {
   padding: 40px;
@@ -436,12 +437,11 @@ main {
 
 .contact {
   display: flex;
-  background: #F1F6F5;
+  background: #f1f6f5;
   gap: 150px;
   margin: 40px 0px;
   padding: 100px;
 }
-
 
 .contact-content {
   display: flex;
@@ -467,8 +467,6 @@ main {
   text-align: center;
 }
 
-
-
 .blog-content {
   display: flex;
   gap: 20px;
@@ -479,9 +477,9 @@ main {
   gap: 20px;
 }
 
-.blog-img-container{
-  height: 280px;
-  width: 250px; 
+.blog-img-container {
+  height: 45vh;
+  width: 19vw;
 }
 
 .blog-img-container img {
@@ -514,27 +512,26 @@ footer {
   margin-top: 20px;
 }
 
-.footer-pages{
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
+.footer-pages {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
 }
 .pages-list p {
-    font-size: 14px;
-    color: #6a6a6a;
-    margin-top: 10px;
+  font-size: 14px;
+  color: #6a6a6a;
+  margin-top: 10px;
 }
 
 .copyright {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    padding: 20px;
-    border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000;
-
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 
-.click-me:hover{
-    color: red;
+.click-me:hover {
+  color: red;
 }
